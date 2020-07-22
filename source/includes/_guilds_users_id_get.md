@@ -37,8 +37,8 @@ client.getUserBalance(guildID, userID);
 
 Field | Type | Description
 --------- | ------- | -----------
-rank?       | String    | User ID of the Discord user.
-user_id     | String    | Limit the number of users returned. If page is given the default will be 1000.
+rank?       | String    | Leaderboard rank of the user. This is only present on GET User Balance and GET Guild Leaderboard
+user_id     | String    | User ID of the discord user.
 cash        | Number    | User's cash balance.
 bank        | Number    | User's bank balance.
 total       | Number    | User's total balance.
