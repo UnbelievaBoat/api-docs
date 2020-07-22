@@ -45,4 +45,4 @@ ECONOMY   | 0x00000001    | Access and edit this servers economy
 
 Field | Type | Description
 --------- | ------- | -----------
-permission  | Number    | bitwise value of the enabled permissions
+permission  | Number    | bitwise value of the allowed permissions
