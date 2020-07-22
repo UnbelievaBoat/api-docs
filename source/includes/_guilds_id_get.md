@@ -6,7 +6,12 @@ curl "https://unbelievaboat.com/api/v1/guilds/305129477627969547"
 ```
 
 ```javascript
-// Unsupported with unb-api
+const { Client } = require('unb-api');
+const client = new Client('API_TOKEN');
+
+const guildID = '305129477627969547';
+
+client.getGuild(guildID);
 ```
 
 ```python

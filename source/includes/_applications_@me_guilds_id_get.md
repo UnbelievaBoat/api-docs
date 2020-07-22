@@ -1,4 +1,4 @@
-## GET Guild
+## GET Application Permissions
 
 ```shell
 curl "https://unbelievaboat.com/api/v1/applications/@me/guilds/305129477627969547"
@@ -6,7 +6,15 @@ curl "https://unbelievaboat.com/api/v1/applications/@me/guilds/30512947762796954
 ```
 
 ```javascript
-// Unsupported with unb-api
+const { Client } = require('unb-api');
+const client = new Client('API_TOKEN');
+    
+const guildID = '305129477627969547';
+    
+client.getApplicationPermission(guildID)
+    .then(permission => {
+        console.log(permission.has('economy'));
+    });
 ```
 
 ```python
