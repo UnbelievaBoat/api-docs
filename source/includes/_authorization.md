@@ -23,6 +23,6 @@ Authorization type is not required, it's just the token.
 ### Bot Authorization
 API tokens can be created for Discord bots which allows them to make requests on guilds they have been authorized on.
 
-<button class="blurple" onclick="location.href='https://unbelievaboat.com/applications'">
+<button class="blurple" onclick="window.open('https://unbelievaboat.com/applications', '_blank')">
     Applications
 </button>
