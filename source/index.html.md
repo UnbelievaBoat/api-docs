@@ -2,9 +2,9 @@
 title: UnbelievaBoat API Reference
 
 language_tabs: # must be one of https://git.io/vQNgJ
-  - shell: cURL
+  - shell: Curl
   - javascript: unb-api.js
-  - python
+  - python: Python
 
 toc_footers:
   - <a href='https://unbelievaboat.com/applications' target="_blank">Get your API Token</a>
