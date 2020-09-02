@@ -2,7 +2,7 @@
 title: UnbelievaBoat API Reference
 
 language_tabs: # must be one of https://git.io/vQNgJ
-  - shell: Curl
+  - shell: cURL
   - javascript: unb-api.js
   - python: Python
 
