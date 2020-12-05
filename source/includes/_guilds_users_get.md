@@ -15,7 +15,10 @@ client.getGuildLeaderboard(guildID, { sort: 'cash' });
 ```
 
 ```python
-
+import unbelievaboat
+unbclient = unbelievaboat.client('API_TOKEN')
+guildid = '305129477627969547'
+unbclient.get_leaderboard(guildid, sort="cash")
 ```
 
 > Response:
