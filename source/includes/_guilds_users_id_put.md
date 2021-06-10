@@ -2,7 +2,7 @@
 
 ```shell
 curl "https://unbelievaboat.com/api/v1/guilds/305129477627969547/users/261674810914897931"
-  -d '{ cash: 200, bank: 0 }'
+  -d '{ "cash": 200, "bank": 0 }'
   -X PUT
   -H 'Accept: application/json'
   -H "Authorization: API_TOKEN"
