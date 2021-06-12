@@ -18,7 +18,11 @@ client.getApplicationPermission(guildID)
 ```
 
 ```python
-
+import unbelievaboat
+unbclient = unbelievaboat.client('API_TOKEN')
+guildid = '305129477627969547'
+if unbclient.get_app_perms(guildid) == 1:
+    print("You has economy permission!")
 ```
 
 > Response:

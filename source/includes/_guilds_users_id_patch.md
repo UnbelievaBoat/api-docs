@@ -19,7 +19,11 @@ client.editUserBalance(guildID, userID, { cash: -10, bank: 50 });
 ```
 
 ```python
-
+import unbelievaboat
+unbclient = unbelievaboat.client('API_TOKEN')
+guildid = '305129477627969547'
+userid = '261674810914897931'
+unbclient.change_user_bal(guildid, userid, cash=-10, bank=50)
 ```
 
 > Response:

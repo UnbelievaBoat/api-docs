@@ -15,7 +15,10 @@ client.getGuild(guildID);
 ```
 
 ```python
-
+import unbelievaboat
+unbclient = unbelievaboat.client('API_TOKEN')
+guildid = '305129477627969547'
+unbclient.get_guild(guildid)
 ```
 
 > Response:
